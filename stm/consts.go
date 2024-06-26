@@ -2,15 +2,15 @@ package stm
 
 const (
 	// MaxSitemapFiles defines max sitemap links per index file
-	MaxSitemapFiles = 50000
+	MaxSitemapFiles = 10000
 	// MaxSitemapLinks defines max links per sitemap
-	MaxSitemapLinks = 50000
+	MaxSitemapLinks = 10000
 	// MaxSitemapImages defines max images per url
 	MaxSitemapImages = 1000
 	// MaxSitemapNews defines max news sitemap per index_file
 	MaxSitemapNews = 1000
 	// MaxSitemapFilesize defines file size for sitemap.
-	MaxSitemapFilesize = 50000000 // bytes
+	MaxSitemapFilesize = 10000000 // bytes
 )
 
 const (
